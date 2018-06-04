@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Dream Team
+                    Dream Team Woho !!
                 </div>
 
                 <div class="links">
