@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('register', function(){
+
+    'name' => $_POST['name'],
+    'email' => $_POST['email'],
+    'pWordHash' => Hash::make($request->newPassword),
+    'submit' => $_POST['login'],
+});
