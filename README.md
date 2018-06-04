@@ -21,4 +21,4 @@ Assignment 3 for  IMT3851 Programmering for web II (2018 VÅR)
 **To install the application do the following steps:**
 * Clone the repository.
 * Open up a terminal/bash in the folder where the files are unpacked.
-* Run the command 'php artisan serve'.
+* Run the command `php artisan serve`.
