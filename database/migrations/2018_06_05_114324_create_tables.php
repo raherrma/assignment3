@@ -19,7 +19,7 @@ class CreateTables extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->timestamps();
+            $table->timestamps('created_at');
         });
         Schema::create('items', function (Blueprint $table){
             $table->increments('id');
@@ -40,7 +40,7 @@ class CreateTables extends Migration
             $table->increments('id');
             $table->string('title');
             $table->text('body');
-            $table->timestamps();
+            $table->timestamps('created_at');
         });
     }
 
