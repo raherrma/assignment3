@@ -1,4 +1,4 @@
-<footer class="text-muted bg-dark p-5">
+<footer class="text-muted bg-light p-5">
 
     <div class="container">
 
