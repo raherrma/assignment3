@@ -11,6 +11,7 @@
 |
 */
 
+<<<<<<< HEAD
 // route to show the login form
 Route::get('login', 'HomeController@showLogin');
 
@@ -19,3 +20,8 @@ Route::post('login', array('uses' => 'HomeController@doLogin'));
 
 // route to logout
 Route::get('logout', array('uses' => 'HomeController@doLogout'));
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> 297a949670b77b2c672a1b694c5808bec85940c9

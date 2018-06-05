@@ -79,7 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
+<<<<<<< HEAD:storage/framework/views/f5b5ef7d8a2055f84dd77186f0a94a5276273f41.php
                     Dream Team  !!
+=======
+                    Laravel
+>>>>>>> 297a949670b77b2c672a1b694c5808bec85940c9:storage/framework/views/d732f8974aab04f5da1ffdf65532ca9e942c4060.php
                 </div>
 
                 <div class="links">
