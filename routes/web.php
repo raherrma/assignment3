@@ -11,14 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// route to show the login form
+Route::get('login', 'HomeController@showLogin');
 
-Route::get('register', function(){
+// route to process the form
+Route::post('login', array('uses' => 'HomeController@doLogin'));
 
-    'name' => $_POST['name'],
-    'email' => $_POST['email'],
-    'pWordHash' => Hash::make($request->newPassword),
-    'submit' => $_POST['login'],
-});
+// route to logout
+Route::get('logout', array('uses' => 'HomeController@doLogout'));
