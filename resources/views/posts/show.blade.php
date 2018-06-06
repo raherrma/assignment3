@@ -10,7 +10,7 @@
 
             <div class="item-meta">
                 <p class="mb-0">
-                    <span class="font-weight-bold">Giver:</span> Name Namesen | <span class="font-weight-bold">Category:</span> Cat-Name | <span class="font-weight-bold">Published:</span> 01-01-2018
+                    <span class="font-weight-bold">Giver:</span> <a href="#">Name Namesen</a> | <span class="font-weight-bold">Category:</span> <a href="#">Cat-Name</a> | <span class="font-weight-bold">Published:</span> 01-01-2018
                 </p>
             </div>
 

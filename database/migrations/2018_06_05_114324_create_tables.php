@@ -19,28 +19,28 @@ class CreateTables extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->timestamps('created_at');
+            $table->timestamp('created_at');
         });
-        Schema::create('items', function (Blueprint $table){
+        Schema::create('items', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->string('description');
             $table->string('category');
             $table->string('posted_by');
-            $table->timestamps('created_at');
+            $table->timestamp('created_at');
         });
-        Schema::create('categories', function (Blueprint $table){
+        Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->string('description');
             $table->integer('total_entries');
-            $table->timestamps('created_at');
+            $table->timestamp('created_at');
         });
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
             $table->text('body');
-            $table->timestamps('created_at');
+            $table->timestamp('created_at');
         });
     }
 

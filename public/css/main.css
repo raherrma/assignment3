@@ -5,6 +5,10 @@ body {
     font-weight: 300;
 }
 
+body.hidden {
+    display: none;
+}
+
 h1 {
     font-weight: 300;
 }
@@ -36,12 +40,44 @@ nav a:link,
 nav a:visited {
     color: #FFF;
     border-bottom: 2px solid transparent;
-    transition: all 0.3s ease;
+    transition: border 0.3s ease color 0.3s ease;
 }
 nav a:hover,
 nav a:active {
     color: rgba(255,255,255,0.7);
     border-bottom: 2px solid #FFF;
+}
+h1.logo a:link,
+h1.logo a:visited {
+    font-weight: 200;
+    color: #FFF;
+    transition: border 0.3s ease color 0.3s ease;
+}
+h1.logo a:hover,
+h1.logo a:active {
+    text-decoration: none;
+}
+h1.logo a::before {
+    content: "\0261E";
+    color: #c10c2f;
+    padding-right: 1rem;
+    transition: all 0.3s ease;
+}
+h1.logo a::after {
+    content: "\0261C";
+    color: #c10c2f;
+    padding-left: 1rem;
+    transition: all 0.3s ease;
+}
+h1.logo a:hover::before {
+    content: "\0261E";
+    color: #FFF;
+    padding-right: 1rem;
+}
+h1.logo a:hover::after {
+    content: "\0261C";
+    color: #FFF;
+    padding-left: 1rem;
 }
 .navbar-nav .dropdown-menu {
     border-radius: 0;

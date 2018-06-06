@@ -1,6 +1,6 @@
 <header id="main-header" class="p-5 text-center">
 
-    <h1>freeSTUFF!</h1>
+    <h1 id="home" class="logo"><a href="{{ URL::to('/') }}">freeSTUFF!</a></h1>
     <p id="tag-line" class="pt-2">
         get awsome stuff for free
     </p>
