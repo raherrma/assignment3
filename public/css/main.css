@@ -4,9 +4,13 @@ body {
     font-size: 16px;
     font-weight: 300;
 }
+#main-header {
+    background-color: #c10c2f;
+    color: #FFF;
+}
 
-body.hidden {
-    display: none;
+#main-header h1 {
+    font-weight: 200;
 }
 
 h1 {
@@ -79,6 +83,27 @@ h1.logo a:hover::after {
     color: #FFF;
     padding-left: 1rem;
 }
+
+nav {
+    font-weight: 600;
+}
+
+a {
+    color: #c10c2f;
+}
+
+nav a,
+nav a:visited {
+    color: #FFF;
+    border-bottom: 2px solid transparent;
+    transition: border 500ms ease-out;
+}
+
+nav a:hover {
+    color: rgba(255,255,255,0.7);
+    border-bottom: 2px solid #FFF;
+}
+
 .navbar-nav .dropdown-menu {
     border-radius: 0;
     border: 0;
@@ -86,10 +111,13 @@ h1.logo a:hover::after {
 .navbar-toggler {
     margin: 0 auto;
 }
+
+.navbar-toggler {
+    margin: 0 auto;
+}
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-
 /*    -  H E A D E R S  -    */
 #main-header {
     background-color: #c10c2f;
@@ -110,4 +138,7 @@ h1.logo a:hover::after {
 
 .item-meta p {
     font-size: .9rem;
+}
+#item-header h1 {
+    border-bottom: 2px solid #c10c2f;
 }

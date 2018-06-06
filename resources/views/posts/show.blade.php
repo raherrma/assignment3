@@ -10,7 +10,11 @@
 
             <div class="item-meta">
                 <p class="mb-0">
+<<<<<<< Updated upstream
                     <span class="font-weight-bold">Giver:</span> <a href="#">Name Namesen</a> | <span class="font-weight-bold">Category:</span> <a href="#">Cat-Name</a> | <span class="font-weight-bold">Published:</span> 01-01-2018
+=======
+                    Giver: Name Namesen | Category: Cat-Name | Published: 01-01-2018
+>>>>>>> Stashed changes
                 </p>
             </div>
 
